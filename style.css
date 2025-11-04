@@ -1,1 +1,87 @@
+/* style.css */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #1A1F71;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #F4F4F4;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Buttons */
+button, .btn {
+    background-color: #1A1F71;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+button:hover, .btn:hover {
+    background-color: #0f144d;
+}
+
+/* Sections */
+.section {
+    padding: 60px 20px;
+}
+
+/* Cours Cards */
+.cours-card {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 15px;
+    margin: 10px;
+    transition: transform 0.2s;
+}
+
+.cours-card:hover {
+    transform: scale(1.02);
+}
+
+/* Grille responsive */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Dashboard */
+.dashboard {
+    padding: 40px 20px;
+}
 
